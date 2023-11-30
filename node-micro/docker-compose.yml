@@ -1,0 +1,6 @@
+services:
+  cache:
+    image: redis:7.2-alpine
+    restart: "no"
+    ports:
+      - "6379:6379"
